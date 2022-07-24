@@ -1,0 +1,45 @@
+h1,
+h2 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-image: url(counting-stars.jpg);
+    border: 1px solid black;
+    box-shadow: 10px 0px 5px 2px aquamarine;
+    margin-top: 10%;
+}
+
+button {
+    border: none;
+    align-self: center;
+    border-radius: 10px;
+    margin-left: 45%;
+    font-size: 20px;
+    color: black;
+    height: 40px;
+    width: 130px;
+    margin-top: 1%;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#increment-btn {
+    background-color: #4CAF50;
+}
+
+#save-btn {
+    background-color: #2196F3;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+}
