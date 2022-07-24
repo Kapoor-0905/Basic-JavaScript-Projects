@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <input type="number" id="num1" onblur="input()">
+    <input type="number" id="num2" onblur="input()">
+    <button id="add" class="operator" onclick="add()">Add</button>
+    <button id="subtract" class="operator" onclick="subtract()">Subtract</button>
+    <button id="multiply" class="operator" onclick="multiply()">Multiply</button>
+    <button id="divide" class="operator" onclick="divide()">Divide</button>
+    <p id="result">Result: 0</p>
+    <script src="./index.js"></script>
+</body>
