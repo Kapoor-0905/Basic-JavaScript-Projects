@@ -1,1 +1,1 @@
-# counter-app
+## Basic JavaScript Projects
